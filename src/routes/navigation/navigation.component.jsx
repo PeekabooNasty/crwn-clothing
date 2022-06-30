@@ -7,6 +7,9 @@ import './navigation.styles.scss';
 
 const Navigation = () => {
   return (
+    // Fragment ~ empty 'div' with no styling
+    // <> == <Fragment>
+    // Links connect to routes that render components
     <Fragment>
       <div className='navigation'>
         <Link className='logo-container' to='/'>
